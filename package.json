@@ -4,7 +4,8 @@
   "description": "",
   "main": "flatten-array.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watch flatten-array.test.js"
   },
   "author": "Ashley Sanders",
   "license": "ISC",

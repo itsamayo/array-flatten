@@ -14,3 +14,8 @@ it('Check double nested array', () => {
 it('Check triple nested array', () => {
     expect(flatten([[[[1,2],3,[4,5,[6],7],8],9],10,11])).toStrictEqual([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ])
 })
+
+// Check that what is passed is in fact an array
+it('Check if is not array', () => {
+    expect(flatten({})).toBe('Please pass in an array')
+})
