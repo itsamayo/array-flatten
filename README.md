@@ -9,8 +9,8 @@ git clone https://github.com/AshKetchumza/array-flatten
 cd array-flatten
 # Install dependencies
 npm i
-# Run the app
-node main.js
+# Run tests
+npm test
 ```
 
 #### Author: [Ashley Sanders](https://twitter.com/AshMikeKetchum)
