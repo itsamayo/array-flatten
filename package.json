@@ -2,10 +2,14 @@
   "name": "array-flattener",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "flatten-array.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Ashley Sanders",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
